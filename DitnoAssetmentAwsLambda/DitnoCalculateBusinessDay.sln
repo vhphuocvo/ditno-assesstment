@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DitnoCalculateBusinessDay", "DitnoAssetmentAwsLambda\DitnoCalculateBusinessDay.csproj", "{F28AD5FE-958F-4643-8849-EFF0A4464754}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DitnoCalculateBusinessDay.Tests", "DitnoAssetmentAwsLambda.Tests\DitnoCalculateBusinessDay.Tests.csproj", "{9DE5C357-354E-41F5-9E6F-4838F1977496}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F28AD5FE-958F-4643-8849-EFF0A4464754}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F28AD5FE-958F-4643-8849-EFF0A4464754}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F28AD5FE-958F-4643-8849-EFF0A4464754}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F28AD5FE-958F-4643-8849-EFF0A4464754}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DE5C357-354E-41F5-9E6F-4838F1977496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DE5C357-354E-41F5-9E6F-4838F1977496}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DE5C357-354E-41F5-9E6F-4838F1977496}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DE5C357-354E-41F5-9E6F-4838F1977496}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9FD86EF4-75EF-406F-91D8-8F070A0061EA}
+	EndGlobalSection
+EndGlobal
